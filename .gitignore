@@ -1,0 +1,10 @@
+/.local/
+/.cursor/
+/.vscode/
+/vendor/
+/composer.lock
+/coverage/
+.phpunit.result.cache
+.DS_Store
+Thumbs.db
+wialon-parser.code-workspace

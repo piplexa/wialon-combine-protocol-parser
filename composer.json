@@ -1,0 +1,38 @@
+{
+    "name": "pplexa/wialon-parser",
+    "description": "PHP parser for Wialon Combine binary protocol used in GPS/GLONASS trackers",
+    "type": "library",
+    "keywords": ["wialon", "gps", "glonass", "tracker", "parser", "binary", "protocol"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Gal",
+            "email": "pplexa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wialon\\Combine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wialon\\Combine\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
