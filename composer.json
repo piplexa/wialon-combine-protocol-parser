@@ -1,5 +1,5 @@
 {
-    "name": "pplexa/wialon-parser",
+    "name": "piplexa/wialon-combine-protocol-parser",
     "description": "PHP parser for Wialon Combine binary protocol used in GPS/GLONASS trackers",
     "type": "library",
     "keywords": ["wialon", "gps", "glonass", "tracker", "parser", "binary", "protocol"],
