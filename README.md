@@ -210,7 +210,7 @@ MIT License. См. файл [LICENSE](LICENSE) для подробностей.
 
 ## Поддержка
 
-Если у вас есть вопросы или предложения, создайте [issue](https://github.com/your-username/wialon-combine-protocol-parser/issues).
+Если у вас есть вопросы или предложения, создайте [issue](https://github.com/piplexa/wialon-combine-protocol-parser/issues).
 
 ## Changelog
 
