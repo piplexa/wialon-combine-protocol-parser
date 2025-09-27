@@ -4,8 +4,8 @@
 /vendor/
 /composer.lock
 /coverage/
-/coverage.xml
 .phpunit.result.cache
 .DS_Store
 Thumbs.db
 .wialon-parser.code-workspace
+coverage.xml
