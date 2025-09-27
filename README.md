@@ -59,7 +59,9 @@ $result = $parser->parse();
 // Вывод результата
 echo "Тип пакета: " . $result['type'] . "\n";
 echo "Порядковый номер: " . $result['sequence'] . "\n";
-echo "CRC валиден: " . ($result['crc']['valid'] ? 'да' : 'нет') . "\n";
+echo "Записей: " . count($result['records']) . "\n";
+echo "CRC: " . $result['crc']['calculated'] . "\n";
+
 ```
 
 ### Парсинг из файла
@@ -206,13 +208,17 @@ composer test-coverage
 
 ## Лицензия
 
-MIT License. См. файл [LICENSE](LICENSE) для подробностей.
+MIT License.
 
 ## Поддержка
 
 Если у вас есть вопросы или предложения, создайте [issue](https://github.com/piplexa/wialon-combine-protocol-parser/issues).
 
 ## Changelog
+
+### v1.0.1
+- В ответе парсинга добавлен hex-представление ответа
+- Исправлены мелкие баги в валидации CRC
 
 ### v1.0.0
 - Первоначальный релиз
